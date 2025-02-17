@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    // what is graph
+    // A grapg is collgection of nodes (also vertices) connected by edges. It is used to represent relationship like roads connected to cities
+    // 2. What is the difference between a Directed and an Undirected Graph?
+    // Directed grapg -> the edge have dirctection (like one way -road)
+    // UNdirected grapg -> the edge have have no direction (like a toow way road)
+    // 3. What is an Adjacency Matrix?
+    // It is 2 d array (table )
+    // matrix[i][j]=1 means there us an edge from node i to node j
+    // matririx[i][j]=0 means there is no edge
+    // What is Adjacency list
+    // Insted of a big matrics we uses list where wach node store a list of its neighboau . it saves spaces
+    // 5. What is the difference between BFS and DFS?
+    // bfs breadhth first search ->visit all the neighboaur forst
+    // dfs depth first search -> visit all the neighboaur first and then backtrack
+    // 6. What is a Weighted Graph?
+    // A graph where each edge has number (wiigth) like road distance between cities
+
+    // 7. What is a Cycle in a Graph?
+    // A cycle happen when you stater a nodes , follow edges and come back to the same node.
+
+    // 8. What is a Connected Graph?
+    // A graph where all the nodes are connected dirtected or indirectly
+    // 9. What is a Tree in Graphs?
+    // A tree is special grag ehere there are no cycle , there is exstly one path between two nodes.
+
+    // 10. what is shortest path on a graph.
+    // The shortest path is the path with the minimum total weight.
+}
