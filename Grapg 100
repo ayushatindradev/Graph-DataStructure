@@ -30,3 +30,153 @@ int main()
     // 10. what is shortest path on a graph.
     // The shortest path is the path with the minimum total weight.
 }
+1. What is a graph in data structures?
+A graph is data structre that consists of nodes (vertices ) and edges connecting them.it can be directed or undirected ans is used to replesent relationship between objects.
+2. What are the types of graphs?
+Directed graph->edges have a direction (a->b)
+undirected graph -> edges have no direction (a-b)
+weighted graph -> edges have a value (a-b, 3)
+unweighted graph-> edges have no weights
+cyclic graph-> contains a cycle (a path where first ans last nodes aree same.)
+acyclic grapg -> graph no cycle
+Adjancy Matrix->
+3. What are the different ways to represent a graph?
+Adjancy matrix ->a 2d array matrix[i][j]=1
+Adjancy List -> An array of list where each nodes stores its neighbour.
+4. What is the time complexity of BFS and DFS?
+bfs=>o(v+e)
+dfs=>o(v+e)
+5. What is the difference between BFS and DFS?
+appraoch => level wise and depth wise
+uses => shortest path ,solving mazes ,cyclye detection
+data structe -> queue and stack.
+6. How can you detect a cycle in a graph?
+For undiected graph : use dfs with a parent check.
+For directed Graph: uses dfs with a visited ans recursion stack or kahns alorithm 
+7. What is Topological Sorting?
+Topological sorting is a linear ordering of vertices such that for every directed edge uv, u comes before v in the ordering.
+8. What is Dijkstra’s Algorithm used for?
+Dijkstra's algorithm is used for finding the shortest path from a single source vertex to all other vertices in a graph.
+9. What is the difference between Prim’s and Kruskal’s Algorithm?
+Prim's algorithm is used for finding the minimum spanning tree in an undirected graph.
+Kruskal's algorithm is used for finding the minimum spanning tree in a weighted undirected graph.
+10. What is Bellman-Ford Algorithm?
+Bellman-Ford algorithm is used for finding the shortest path from a single source vertex to all other vertices in a graph with possibly negative weight edges.
+What is a graph in data structures?
+A graph is  a collcetion of nodes(vertics) connected by edges 
+What are the two main types of graphs?
+directed ans undirected
+What is an adjacency matrix?
+// A 2d array representation of graph where matrix[i][j] is 1 if there is an egde else 0
+What is an adjacency list?
+A list ehre each vertex has lineke list to of vertices.
+What is the time complexity to check an edge in an adjacency matrix?
+0(1).
+What is the time complexity to check an edge in an adjacency list?
+o(v)
+Which algorithm is used for shortest path in an unweighted graph?
+bfs.
+Which algorithm is used for shortest path in a weighted graph?
+dijstra 
+Which algorithm detects cycles in a directed graph?
+DFS and kahn algo.
+Which algorithm finds the Minimum Spanning Tree (MST)?
+preisn and kruskal
+What is a vertex in a graph?
+A point or node in a graph
+What is an edge in a graph?
+a connection beteren two vertices
+What is an undirected graph?
+a graph whee edges have no direction.
+What is a directed graph?
+A graph where edges have a direction.
+What is a weighted graph?
+A graph where edges have weights(cost.)
+What is an unweighted graph?
+A graph where edges have no weights.
+What is a connected graph?
+A prapg where all vertices are rechanble 
+What is a disconnected graph?
+A graph with at least one unreacheble vertex.
+What is a cyclic graph?
+A graph that has no cycle.
+What is an acyclic graph?
+A graph that no cycles
+What is a tree in graph theory?
+a connected acclic grapg
+What is a complete graph?
+A graph where every vertex is connected to oevery other vertex,
+What is a bipartite graph?
+A graph whose vertwx can be divide ito no same set connection
+What is the degree of a vertex?
+The number of edges connected to it.
+What is an adjacency matrix used for?
+Storing graph connection in 2d array.
+What is an adjacency list used for?
+string graph connection using list,
+Which is better for a sparse graph: adjacency list or adjacency matrix?
+Adjacency list (uses less spaces)
+What is BFS used for?
+Traversing a graph level by level 
+What is DFS used for?
+Traversing a grapg deep befroe wide.
+What is a spanning tree?
+A subgraph that conect s all very wid without cycycle 
+What is a graph?
+A collection of nodes ans edges.
+What is a node in a graph called?
+a vertex
+What connects two vertices?
+edges.
+What is a simple graph?
+A grapg with no loops ad multiple edges,
+What is a loop in a graph?
+An edges that connectes a vrtex to itself.
+What is an undirected edge?
+An edges with no direction,
+What is a directed edge?
+An edges with a direction (arrow).
+What is a weighted edge?
+An egdes with a number (weightes).
+What is an unweighted edge?
+An edges withiut a number.
+What is an isolated vertex?
+A vertex with no edges.
+What is a path in a graph?
+A sequensce id conected vertics
+What is a cycle in a graph?
+A path thta starts and ends at the same vertes,
+What is the shortest path?
+The smallest number of eges to reacj a vertex
+Which graph traversal uses a queue?
+bfs.
+Which graph traversal uses a stack?
+dfs.
+What does BFS explore first?
+The nearst node.
+What is a self-loop?
+An edges that starts ans end with same vertex
+What is a subgraph?
+A smaller part of a graph.
+What is a graph traversal?
+Visiting all vertices of the graph.
+What is a graph?
+A collection of points (nodes)and lines (eges)
+What is a vertex?
+A points in a grapg
+What is an edge?
+A line that connects two points 
+What is an undirected graph?
+A grapg where edges have no arrows
+What is a directed graph?
+A graph where edges have arrows
+What is a path?
+A way to go from one vertwx to another 
+What is a cycle?
+A path that starts and ends at the same points
+What is BFS?
+A wat to explore a graph level by level.
+What is DFS?
+A way to explore a graph deep forst ,
+What is a connected graph?
+A graph where all points are reachable.
